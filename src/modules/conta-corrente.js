@@ -1,6 +1,6 @@
-import { conta } from "./conta.js";
+import { Conta } from "./conta.js";
 
-export class ContaCorrente extends conta {
+export class ContaCorrente extends Conta {
 
     #taxa = 0.01;
 

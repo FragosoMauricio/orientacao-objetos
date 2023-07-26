@@ -1,6 +1,6 @@
 //classe é para criar modelos, aqui no caso de conta bancaria.
 
-export class conta {
+export class Conta {
 
     //definindo atributos, quando usamos os atributos no construtor nao precisa declarar osatributos em outro lugar
     /*saldo;
@@ -79,4 +79,10 @@ export class conta {
         return false;
     }
 
+    toString(){
+        return `Agencia: ${this.agencia}, 
+                conta: ${this.numero},
+                titular: ${this.titular.nome}, 
+                Saldo: ${this.saldo.toFixed(2)}`;
+    }
 }
